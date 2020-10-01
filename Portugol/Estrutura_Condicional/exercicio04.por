@@ -24,8 +24,12 @@ programa
 
 		escreva("O número ", N, " é par e positivo")
 		
-		} senao {
+		} senao se (N == 0){
 		
+		escreva("zero é número neutro")
+		
+		} senao {
+
 		escreva("O número ", N, " é par e negativo")
 		
 		}
@@ -36,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 560; 
+ * @POSICAO-CURSOR = 614; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
