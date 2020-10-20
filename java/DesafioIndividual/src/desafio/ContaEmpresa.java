@@ -21,6 +21,6 @@ public class ContaEmpresa extends ContaBancaria{
 	}
 
 	public double emprestimoEmpresarial() {
-		return (this.limiteEmpresa * 2);
+		return ((this.limiteEmpresa * 2 - (this.limiteEmpresa / 2)));
 	}
 }
